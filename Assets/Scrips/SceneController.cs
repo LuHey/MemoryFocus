@@ -64,7 +64,7 @@ public class SceneController : MonoBehaviour
         }
 
         // 8. 场景加载完成后执行淡出效果，使画面逐渐变亮
-        yield return StartCoroutine(fadeEffect.FadeOut());
+        //yield return StartCoroutine(fadeEffect.FadeOut());
     }
 
     // 重置Lighting设置的方法，确保切换时光照正确
